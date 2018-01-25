@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TempConverter</string>
+    <string name="string_fahrenheit">Fahrenheit</string>
+    <string name="string_celsius">Celsius</string>
+    <string name="string_fahrenheitEdit">Enter Fahrenheit Degrees</string>
+    <string name="string_celsiusEdit">Enter Celsius Degrees</string>
+    <string name="button_convert">Convert</string>
+    <string name="string_degrees">Degrees</string>
+</resources>
