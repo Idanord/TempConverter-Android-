@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TempConverter.iml" filepath="$PROJECT_DIR$/TempConverter.iml" />
+      <module fileurl="file://C:\Users\Will\Documents\GitHub\TempConverter-Android-\TempConverter.iml" filepath="C:\Users\Will\Documents\GitHub\TempConverter-Android-\TempConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TempConverter-Android-.iml" filepath="$PROJECT_DIR$/TempConverter-Android-.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Will\Documents\GitHub\TempConverter-Android-\app\app.iml" filepath="C:\Users\Will\Documents\GitHub\TempConverter-Android-\app\app.iml" />
     </modules>
   </component>
 </project>

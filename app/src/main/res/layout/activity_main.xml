@@ -4,81 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fisher.tempconverter.MainActivity">
+    tools:context="com.fisher.tempconverter.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
-        android:id="@+id/fahrengeitTextVeiw"
+        android:id="@+id/fahrenheitEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="104dp"
         android:text="@string/string_fahrenheit"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
 
     <TextView
         android:id="@+id/celsiusTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
         android:text="@string/string_celsius"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fahrengeitTextVeiw" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="169dp" />
 
     <TextView
         android:id="@+id/degreesTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
         android:text="@string/string_degrees"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/fahrengeitTextVeiw"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/fahrengeitEditView"
+        tools:layout_editor_absoluteX="160dp" />
 
     <EditText
         android:id="@+id/fahrengeitEditView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/string_fahrenheitEdit"
         android:textSize="18sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/fahrengeitTextVeiw"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/fahrengeitTextVeiw" />
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="94dp" />
 
     <EditText
         android:id="@+id/celsiusEditView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/string_celsiusEdit"
-        app:layout_constraintBaseline_toBaselineOf="@+id/celsiusTextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.648"
-        app:layout_constraintStart_toEndOf="@+id/celsiusTextView" />
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="159dp" />
 
     <Button
         android:id="@+id/buttonConvertView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/button_convert"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/convertionTextView"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="68dp"
-        android:text="@string/button_convert"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConvertView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/celsiusEditView" />
 
